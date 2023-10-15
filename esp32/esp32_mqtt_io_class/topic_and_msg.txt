@@ -1,0 +1,27 @@
+[topic]->[messeage]
+
+
+sensor data type
+
+NTU/riceball/makentu2023/sensor/1F/[id]->da_temp:%f,hum:%f,press:%f,co2:%f,tvoc:%f,pm025:%d,pm100:%d
+
+#define STD_CONTROL_FORMAT "c_" 不要管他
+
+send control messeager from YSchang and CYHu
+NTU/riceball/makentu2023/contorl/1F/[id]/subscribe->s1_setid:%d,turn_on:%d,delete:%d,pipe:%d,sensor_in:%d,sensor_out:%d
+
+NTU/riceball/makentu2023/control/1F/[id]/subscribe->s2_setid:%d,turn_on:%d,delete:%d,pipe:%d,sensor_in:%d,sensor_out:%d,pipe:%d,sensor_in:%d,sensor:%d" //set up the pipe inside_sensor outside_sensor
+
+NTU/riceball/makentu2023/control/1F/[id]/subscribe->t_co2:%f,pm:%f,tvoc:%f
+
+NTU/riceball/makentu2023/control/1F/[id]/subscribe->w_co2:%f,pm:%f,tvoc:%f
+
+
+send pipe state from contorler(pipe會收到來自contorler的press訊號，請記得忽略掉)
+and pipe get command from contorler
+
+send from controler(pipe should subscribe)
+    NTU/riceball/makentu2023/pipe/1F/[id]/subscribe->p_door_in:%d,door_out:%d,fan_in:%d,fan_out:%d,press_in:%f,press_out:%f
+
+send form pipe     (pipe shoule publish)
+    NTU/riceball/makentu2023/pipe/1F/[id]/publish->p_door_in:%d,door_out:%d,fan_in:%d,fan_out:%d,press_in:%f,press_out:%f

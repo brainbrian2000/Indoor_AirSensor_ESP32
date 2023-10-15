@@ -1,0 +1,152 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\variants\\nodemcu-32s"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "ESP32Time.h",
+    "Includepath": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\ESP32Time"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "ESPping.h",
+    "Includepath": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\ESPping\\src"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "MFRC522.h",
+    "Includepath": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\MFRC522\\src"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\EEPROM\\src"
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\test_code.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\EEPROM_function.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\ESP32_PowerSafe.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\RFID_function.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\Time_func_esp32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\.NTU\\IPCS\\airsensor\\test_code\\build\\sketch\\Wifi_connect.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\ESP32Time\\ESP32Time.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\ESPping\\src\\ESPping.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\ESPping\\src\\ping.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\MFRC522\\src\\MFRC522.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\MFRC522\\src\\MFRC522Extended.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.7\\libraries\\EEPROM\\src\\EEPROM.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

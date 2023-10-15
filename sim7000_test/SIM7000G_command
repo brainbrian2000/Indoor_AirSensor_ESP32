@@ -1,0 +1,87 @@
+中華電信NB-IoT 是走Band 8，頻段為900MHz，Cat M1 是走Band 3，頻段為1800MHz
+AT+CBANDCFG?
+- 查詢該板可用之頻段
+- 原始如下
+- +CBANDCFG: "CAT-M",1,2,3,4,5,8,12,13,18,19,20,26,28,39
+- +CBANDCFG: "NB-IOT",1,2,3,5,8,12,13,17,18,19,20,26,28
+AT+CBANDCFG=<mode>,<band>
+- 範例:AT+CBANDCFG="NB-IOT",8
+AT+CPSI?
+- Get and Set Mobile Operation Band
+AT+CBAND=?
+AT+CBAND?
+
+-  
+AT+CNMP
+- LTE/GSM模式設定 預設AT+CNMP=51
+- +CNMP: ((2-Automatic),(13-GSM Only),(38-LTE Only),(51-GSM And LTE Only))
+AT+CMNB
+- CAT-M and NB-IoT選擇 預設AT+CMNB=3
+- +CMNB: ((1-Cat-M),(2-NB-IoT),(3-Cat-M And NB-IoT))
+AT+CNBS
+- Configure Band Scan Optimization For NB-IOT
+- level 0   Used for good SNR levels(0 db and above)
+-           detects strong cells first and takes the shortest time to acquire cells.
+-           UE scans each raster in 30 ms.
+- level 1   Used for medium SNR levels(-9 dB and above),UE scans each raster for 201 ms
+- level 2   Used for poor SNR levels(-12.6 dB and above),UE scans each raster for 500 ms.
+- ====== <n> ==========
+-    1      UE tries SNR level 0 band scan
+-    2      UE tries SNR level 0 and level 1 band scan
+-    3      UE tries SNR level 0, level 1, and level 2 band scan
+-    4      Reserved
+-    5      UE tries SNR level 2 band scan only
+
+AT+CGATT
+-  0 Detached
+-  1 Attached
+
+AT+CNACTCFG
+-  IP type, default value is IPV4
+
+AT+CNACT
+-  AT+CNACT=<mode>[,<APN>]
+-  AT+CNACT=1 ->open the wireless connection
+-  AT+CNACT? get local IP
+
+AT+NBSC=?
+AT+CPSI?
+
+
+- SIM卡狀況與編號
+AT+CPIN?- SIM狀態
+AT+CIMI- SIM編號
+- - 倘若無法連線，可以透過以下步驟嘗試解決：
+- - -  有偵測到COM port但是一直顯示無法連線，可能是因為port位置不對，因此可以透過裝置管理員進行管理 
+[System.IO.Ports.SerialPort]::getportnames()
+- - -  會跑出目前的port name，應該會有一個莫名其妙沒顯示，但卻有偵測到的port
+- - -  將AT port 9001的com改為該port，就可以成功連入
+- - -  此狀況會發生在"有連線過的SIM7000G上"
+
+- 中華電信
+AT+CSTT="internet.iot"
+- 台灣大哥大
+AT+CSTT="twm.nbiot"
+- 連線狀態
+AT+CGDCONT?
+- 訊號強度
+AT+CSQ
+- 關閉訊號
+AT+CIPSHUT
+- 查詢公司
+AT+COPS?
+-  0 User-specified GSM access technology
+-  7 User-specified LTE M1 A GB access technology
+-  9 User-specified LTE NB S1 access technology
+
+
+- - - -  MQTT proprity - - - -  
+AT+CNACTCFG?
+-  IP類型
+AT+CNACT?
+-  連線狀態
+-  要調整為
+AT+CNACT=1
+
+AT+SMCONF?
+-  MQTT status

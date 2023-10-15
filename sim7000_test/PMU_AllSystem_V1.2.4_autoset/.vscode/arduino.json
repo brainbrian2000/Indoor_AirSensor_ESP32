@@ -1,0 +1,6 @@
+{
+    "port": "COM3",
+    "configuration": "cpu=8MHzatmega328",
+    "board": "arduino:avr:pro",
+    "sketch": "PMU_AllSystem_V1.2.4_autoset.ino"
+}

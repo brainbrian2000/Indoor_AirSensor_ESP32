@@ -1,0 +1,97 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\variants\\eightanaloginputs"
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\PMU_AllSystem_V1.2.2.ino.cpp",
+    "Include": "Adafruit_INA219.h",
+    "Includepath": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\Adafruit_INA219"
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\PMU_AllSystem_V1.2.2.ino.cpp",
+    "Include": "Adafruit_BusIO_Register.h",
+    "Includepath": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\Adafruit_BusIO"
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\PMU_AllSystem_V1.2.2.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\PMU_AllSystem_V1.2.2.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\PMU_AllSystem_V1.2.2.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\SIM7000.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\WaterBox_PMU.cpp",
+    "Include": "LowPower.h",
+    "Includepath": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\LowPower_LowPowerLab"
+  },
+  {
+    "Sourcefile": "e:\\.NTU\\IPCS\\NTU4AQ\\sim7000_test\\build\\sketch\\WaterBox_PMU.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\Adafruit_INA219\\Adafruit_INA219.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\Wire\\src\\utility\\twi.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\brain\\Documents\\Arduino\\libraries\\LowPower_LowPowerLab\\LowPower.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

@@ -1,0 +1,85 @@
+#include <Wire.h>
+#define DEBUG false
+// #define DEBUG true
+
+/***************************************************************************
+  SHT31 模組
+***************************************************************************/
+#include "SHT31.h"
+
+#define SHT31_ADDRESS   0x44
+SHT31 sht31;
+
+enum source {
+  source_BME280,
+  source_SHT31
+};
+
+source Source;
+String code_CMD;
+
+String getCMD()
+{
+  String str_buffer = "";
+
+  while (Serial.available())
+  {
+    char _c = (char)Serial.read();
+    str_buffer += String(_c);
+    delay(5);
+  }
+
+  str_buffer.replace("\r", "");
+  str_buffer.replace("\n", "");
+
+  if (str_buffer.length() > 1)
+  {
+    if (DEBUG) Serial.println("get CMD:\t" + str_buffer);
+  }
+
+  return str_buffer;
+}
+
+void setup() 
+{ 
+Serial.begin(9600);
+Wire.begin();
+Wire.beginTransmission(BME280_ADDRESS);
+  if (!Wire.endTransmission()) Source = source_BME280;
+  Wire.beginTransmission(SHT31_ADDRESS);
+  if (!Wire.endTransmission()) Source = source_SHT31;
+
+  switch (Source) {
+    case source_BME280:
+      bme.begin();
+      if (DEBUG)  Serial.println("BME280 Ready");
+      break;
+    case source_SHT31:
+      sht31.begin(SHT31_ADDRESS);
+      if (DEBUG)  Serial.println("SHT31 Ready");
+      break;
+  }
+
+
+}
+void loop() {
+code_CMD = getCMD();
+code_CMD.toLowerCase();
+
+if (code_CMD.equalsIgnoreCase("temperature")){
+
+if (DEBUG)    Serial.print(F("Temperature(C): "));
+switch (Source)
+{
+    case source_BME280:
+    bme.read(pres, temp, hum, tempUnit, presUnit);
+    Serial.println(temp, 2);
+    break;
+    case source_SHT31:
+    sht31.read(true);
+    Serial.println(sht31.getTemperature(), 2);
+    break;
+}
+
+}
+}
